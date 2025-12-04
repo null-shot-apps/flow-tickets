@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Calendar, MapPin, Users, Clock, Share2, Heart, Ticket, CreditCard, Shield } from 'lucide-react';
+import { Calendar, MapPin, Users, Share2, Heart, Ticket, CreditCard, Shield } from 'lucide-react';
 
 // Mock event data (in real app, this would come from API based on ID)
 const mockEvent = {
@@ -23,7 +23,7 @@ const mockEvent = {
   tags: ['Afrobeats', 'Music', 'Dance', 'Nigerian Culture', 'Live Performance']
 };
 
-export default function EventDetails({ params }: { params: { id: string } }) {
+export default function EventDetails() {
   const [ticketQuantity, setTicketQuantity] = useState(1);
   const [showPayment, setShowPayment] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState('paystack');
@@ -290,3 +290,5 @@ export default function EventDetails({ params }: { params: { id: string } }) {
     </div>
   );
 }
+
+

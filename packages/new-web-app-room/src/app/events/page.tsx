@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Calendar, MapPin, Users, Search, Filter, Ticket } from 'lucide-react';
+import { Calendar, MapPin, Users, Search, Ticket } from 'lucide-react';
 
 // Mock event data
 const mockEvents = [
@@ -279,3 +279,4 @@ export default function Events() {
     </div>
   );
 }
+

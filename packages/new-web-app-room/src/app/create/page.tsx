@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Calendar, Clock, MapPin, Users, DollarSign, Image as ImageIcon, Ticket } from 'lucide-react';
+import { Calendar, Clock, MapPin, DollarSign, Image as ImageIcon, Ticket } from 'lucide-react';
 
 export default function CreateEvent() {
   const [formData, setFormData] = useState({
@@ -282,3 +282,4 @@ export default function CreateEvent() {
     </div>
   );
 }
+

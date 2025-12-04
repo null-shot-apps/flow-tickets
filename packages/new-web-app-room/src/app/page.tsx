@@ -26,7 +26,7 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-5xl font-bold text-gray-900 mb-6">
-            Nigeria's Premier Event Ticketing Platform
+            Nigeria&apos;s Premier Event Ticketing Platform
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Create, promote, and sell tickets for your events with ease. From Lagos to Abuja, 
@@ -111,7 +111,7 @@ export default function Home() {
                 <Ticket className="h-6 w-6 text-green-400" />
                 <span className="text-xl font-bold">EventNaija</span>
               </div>
-              <p className="text-gray-400">Nigeria's premier event ticketing and promotion platform</p>
+              <p className="text-gray-400">Nigeria&apos;s premier event ticketing and promotion platform</p>
             </div>
             <div>
               <h5 className="font-semibold mb-4">Platform</h5>
@@ -146,4 +146,6 @@ export default function Home() {
     </div>
   );
 }
+
+
 
